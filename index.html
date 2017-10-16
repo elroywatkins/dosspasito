@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>DosSPASito Casino</title>
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron:100,300,400,600,700,100italic,300italic,400italic,600italic,700italic" rel="stylesheet" type="text/css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="assets/css/dos.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark header-bottom-border">
+      <div class="container">
+        <a class="navbar-brand text-expanded font-weight-bold d-lg-none  text-heading" href="#">Dos SPA Sito Casino</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item active px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item px-lg-4">
+              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="tagline-upper text-center text-heading text-shadow text-white mt-3 d-none d-lg-block">Dos SPA Sito Casino</div>
+
+<div class="carouselContainer mt-5">
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div >
+            <div class="col-xs-offset-3 col-xs-6">
+              <div id="carouselInner" class="carousel-inner" role="listbox">              
+              </div>
+
+              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+      </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+    <div class="container mt-3">
+      <div id="addSlide" class="p-3">
+        <hr class="divider-lite">
+        <h2 class="text-colour-light text-center text-lg text-uppercase my-0">Add A Slide
+        </h2>
+        <hr class="divider-lite">
+        <div class="tac m-3">
+          <input id="txtSlide"/>
+        </div>
+
+        <div id="errorContainer" class="row">
+          <div class="col-sm-3"></div>
+          <div class="alert alert-danger tac col-sm-6">
+              <span id="lblError"></span>    
+          </div>
+          <div class="col-sm-3"></div>
+          
+        </div>
+
+        <div  class="tac">
+          <button  id="btnAdd" class="btn icon-btn btn-primary">Add To Carousel</button>
+        </div>
+      </div>
+    </div>  
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.5/popper.min.js"></script> cdn not working --> 
+    <script src="assets/cdn/popper/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+    
+    <script src="assets/js/dos.app.common.js"></script>
+    <script src="assets/js/dos.app.home.js"></script>  
+    <script type="text/javascript" defer="defer">      
+              $(function () {
+                  dos.app.home.init();
+              });
+          </script>
+  </body>
+
+</html>
